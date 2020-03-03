@@ -3,13 +3,18 @@
 Build a Model on CIFAR10 dataset to achieve atleast 80% accuracy
 
 #### Target:
-#### *. 4 Convolution blocks with 
-      1. Atleast One layer with Depthwise Separable Convolution
-      2. Atleast One layer withDilated Convolution
-      3. Three Max pooling layers 
-#### *. Number of paramaters should be leass than 1M
-#### *. Must use GAP layer
-#### *. Total Receptive field should be greater than 44
+      1. 4 Convolution blocks with 
+            *. Atleast One layer with Depthwise Separable Convolution
+            *. Atleast One layer withDilated Convolution
+            *. Three Max pooling layers 
+      2. Number of paramaters should be leass than 1M
+      3. Must use GAP layer
+      4. Total Receptive field should be greater than 44
 
 
 #### Result:
+     * Total Parameters = 89,248
+     * L2 Regularised model with weight decay of 0.005
+     * Best Train Accuracy =  89.2%
+     * Best Test Accuracy =  80.8%
+     * Receptive field = 
